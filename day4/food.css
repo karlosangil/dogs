@@ -1,0 +1,302 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-section{
+    background-color: #ABD2E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-p{
+    letter-spacing: 15px;
+}
+.nav-main li{
+    list-style: none;
+}
+.nav-main{
+    display: flex;
+    column-gap: 70px;
+}
+.nav-main li a {
+    text-decoration: none;
+    color: #2a4f83;
+}
+
+/* first banner */
+.first-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-banner{
+    width: 50%;
+    background-color: #2a4f83;
+}
+.content-banner{
+    width: 50%;
+    padding-left: 2%;
+}
+
+/* dog foods */
+.foods{
+    width: 100%;
+    margin-top: 5%;
+}
+.first-row{
+    margin-left: 15%;
+    margin-top: 2%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.bg-img{
+    border-radius: 10px;
+    background-color: #ABD2E6;
+}
+.box1{
+    border-radius: 10px;
+    width: 20%;
+    background-color: #ABD2E6;
+}
+.df1-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2a4f83;
+    height: 30vh;
+    border-radius: 10px 50% 0 0;
+}
+.df1-img img{
+    height: 20vh;
+}
+.price{
+    padding-left: 10px;
+}
+.df4-img{
+    background-color: #2a4f83;
+    border-radius: 10px 50% 0 0;
+}
+.df4-img img{
+    height: 30vh;
+    width: 100%;
+}
+
+/* form style */
+.main-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 70vh;
+
+}
+.main-form h1{
+    font-size: 55px;
+    color: #2F5992;
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.btn-on-form{
+    position: absolute;
+    right: 8px;
+    bottom: 0;
+}
+.btn-on-form button{
+    margin-right: -9px;
+    padding: 15px;
+    background-color: white;
+    border: 3px solid #2F5992;
+    color: #2F5992;
+    font-weight: bold;
+}
+form input{
+    border: 3px solid #2F5992;
+    color: #2F5992;
+    height: 30px;
+    margin: 10px;
+    width: 96.7%;
+    padding: 10px;
+}
+form input::placeholder{
+    color: #2F5992;
+    font-weight: bold;
+}
+.form-section{
+    width: 46%;
+}
+textarea{
+    border: 3px solid #2F5992;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 10px;
+}
+form textarea::placeholder{
+    color: #2F5992;
+}
+.btn{
+    border: 3px solid #2F5992;
+    border-radius: 30px;
+    margin-top: 10px;
+    padding: 20px;
+    width: 13%;
+    color: white;
+    background-color: #2F5992;
+    font-weight: bold;
+}
+
+/* before the footer style */
+.before-footer{
+    background-color: #2F5992;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 30vh;
+    margin-top: 10%;
+}
+.first-footer{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    color: white;
+}
+.second-footer{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+}
+.second-footer p{
+    letter-spacing: 10px;
+}
+.second-footer input{
+    background-color: #2F5992;
+    border: 2px solid white;
+}
+.second-footer input::placeholder{
+    color: white;
+}
+.second-footer button{
+    padding: 5px;
+    border: 1px transparent;
+    border-radius: 20px;
+    color: #2F5992;
+}
+/* footer */
+footer{
+    text-align: center;
+    color: #2F5992;
+}
+
+/* tablet view */
+@media screen and (max-width: 768px) {
+    nav{
+        padding: 10px;
+        flex-direction: column;
+    }
+    .foods{
+        width: 100%;
+    }
+    .first-banner{
+        flex-direction: column;
+    }
+    .img-banner{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .img-banner img{
+        width: 60%;
+    }
+    .content-banner{
+        width: 90%;
+        padding-left: 20px;
+    }
+    .first-row{
+        flex-direction: column;
+    }
+    .box1{
+        margin-top: 20px;
+        width: 50%;
+    }
+    
+    /* form query */
+    .main-form{
+        width: 100%;
+    }
+    .main-form h1{
+        font-size: 30px;
+    }
+    form input{
+        width: 150%;
+    }
+    textarea{
+        width: 150%;
+    }
+    .btn-on-form{
+        right: -26%;
+    }
+    .btn{
+        width: 40%;
+    }
+    .first-footer{
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .before-footer{
+        height: 35vh;
+    }
+    .first-footer p{
+        margin: 15px;
+        text-align: center;
+    }
+    .second-footer{
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .second-footer input{
+        margin: 15px;
+    }
+    .second-footer p{
+        text-align: center;
+    }
+}
+
+/* mobile view */
+@media screen and (max-width: 480px){
+    .box1{
+        width: 80%;
+    }
+    .before-footer{
+        height: 40vh;
+    }
+    .first-footer{
+        flex-direction: column;
+    }
+    .second-footer{
+        flex-direction: column;
+    }
+}

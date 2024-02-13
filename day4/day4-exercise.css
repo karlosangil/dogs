@@ -1,0 +1,458 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.main-first-page{
+    background-color: #ABD2E6;
+}
+nav{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-p{
+    letter-spacing: 15px;
+}
+.nav-main li{
+    list-style: none;
+}
+.nav-main{
+    display: flex;
+    column-gap: 70px;
+
+}
+.nav-main li a {
+    text-decoration: none;
+    color: #2a4f83;
+}
+/* first content */
+.first-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.content-word{
+    width: 50%;
+    font-weight: bold;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.content-word p{
+    font-size: 102px;
+    width: 30%;
+    word-spacing: 50px;
+}
+.content-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.content-img img{
+    width: 100%;
+    height: 100vh;
+}
+
+/* second content */
+
+.main-section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2 h1{
+    font-size: 70px;
+}
+/* boxes */
+.main-section2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.section2-title{
+    margin: 2px;
+    padding: 0;
+}
+.main-box{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    margin: 50px;
+    padding-top: 30px; 
+    padding-bottom: 30px;
+    
+    width: 50%;
+    height: 60vh;
+    background-color: rgba(29, 75, 138, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box1 p{
+    margin: 20px;
+    color: white;
+    width: 212px;
+    height: auto;
+}
+.box1 h3{
+    margin: 0;
+    padding: 5px 0;
+    color: white;
+}
+/* Third section style */
+.third-section{
+    height: 100vh;
+    position: relative;
+}
+.first-img{
+    background-image: url(merlina.png);
+    background-position: center top ;
+    background-size: cover;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+.second-img{
+    background-image: url(peri.png);
+    background-position: center top ;
+    background-size: cover;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.third-img{
+    background-image: url(ragnar.png);
+    background-position: center top ;
+    background-size: cover;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.forth-img{
+    background-image: url(flok.png);
+    background-position: center top ;
+    background-size: cover;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.third-section div p{
+    background-color: white;
+    opacity: 70%;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    font-size: 30px;
+    color: black;
+}
+
+/* form style */
+
+.main-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 70vh;
+
+}
+.main-form h1{
+    font-size: 55px;
+    color: #2F5992;
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.btn-on-form{
+    position: absolute;
+    right: 8px;
+    bottom: 0;
+}
+.btn-on-form button{
+    margin-right: -9px;
+    padding: 15px;
+    background-color: white;
+    border: 3px solid #2F5992;
+    color: #2F5992;
+    font-weight: bold;
+}
+form input{
+    border: 3px solid #2F5992;
+    color: #2F5992;
+    height: 30px;
+    margin: 10px;
+    width: 96.7%;
+    padding: 10px;
+}
+form input::placeholder{
+    color: #2F5992;
+    font-weight: bold;
+}
+.form-section{
+    width: 46%;
+}
+textarea{
+    border: 3px solid #2F5992;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 10px;
+}
+form textarea::placeholder{
+    color: #2F5992;
+}
+.btn{
+    border: 3px solid #2F5992;
+    border-radius: 30px;
+    margin-top: 10px;
+    padding: 20px;
+    width: 13%;
+    color: white;
+    background-color: #2F5992;
+    font-weight: bold;
+}
+
+/* before the footer style */
+.before-footer{
+    background-color: #2F5992;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 30vh;
+    margin-top: 10%;
+}
+.first-footer{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    color: white;
+}
+.second-footer{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+}
+.second-footer p{
+    letter-spacing: 10px;
+}
+.second-footer input{
+    background-color: #2F5992;
+    border: 2px solid white;
+}
+.second-footer input::placeholder{
+    color: white;
+}
+.second-footer button{
+    padding: 5px;
+    border: 1px transparent;
+    border-radius: 20px;
+    color: #2F5992;
+}
+/* footer */
+footer{
+    text-align: center;
+    color: #2F5992;
+}
+
+
+/* TABLET SCREEN */
+@media screen and (max-width: 760px) {
+    nav{
+        flex-direction: column;
+    }
+    .first-page{
+        justify-content: flex-start;
+        align-items: start;
+        flex-direction: column;
+    }
+    .content-word{
+        width: 100%;
+    }
+    .content-word p{
+        font-size: 53px;
+        word-spacing: -7px;
+        width: 54%;
+    }
+    .content-img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content-img img{
+        padding-bottom: 20px;
+        width: 200px;
+        height: fit-content;
+    }
+
+    /* second section */
+    
+    .main-box{
+        width: 100%;
+        flex-direction: column;
+    }
+    .box1{
+        width: 40%;
+        margin-top: 10px;
+    }
+
+    /* form section */
+
+    form input{
+        width: 100%;
+    }
+    textarea{
+        width: 100%;
+    }
+    .btn-on-form{
+        right: -4px;
+    }
+    .btn{
+        width: 30%;
+    }
+    .first-footer{
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .first-footer p{
+        margin: 15px;
+        text-align: center;
+    }
+    .second-footer{
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .second-footer input{
+        margin: 15px;
+    }
+    .second-footer p{
+        text-align: center;
+    }
+    
+}
+
+/* PHONE SCREEN */
+@media screen and (max-width: 414px) {
+    nav{
+        flex-direction: column;
+    }
+    .first-page{
+        justify-content: flex-start;
+        align-items: start;
+        flex-direction: column;
+    }
+    .content-word{
+        width: 100%;
+    }
+    .content-word p{
+        width: 100%;
+        font-size: 52px;
+        word-spacing: -7px;
+        width: 100%;
+    }
+    .content-img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content-img img{
+        padding-bottom: 20px;
+        width: 200px;
+        height: fit-content;
+    }
+
+    /* second section */
+    
+    .main-box{
+        width: 100%;
+        flex-direction: column;
+    }
+    .box1{
+        width: 70%;
+        margin-top: 10px;
+    }
+
+    /* form section */
+
+    form input{
+        width: 100%;
+    }
+    textarea{
+        width: 100%;
+    }
+    .btn-on-form{
+        right: -4px;
+    }
+    .btn{
+        width: 30%;
+    }
+    .first-footer{
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .first-footer p{
+        margin: 15px;
+        text-align: center;
+    }
+    .second-footer{
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .second-footer input{
+        margin: 15px;
+    }
+    .second-footer p{
+        text-align: center;
+    }
+    
+}

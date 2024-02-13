@@ -1,0 +1,333 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-section{
+    background-color: #ABD2E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-p{
+    letter-spacing: 15px;
+}
+.nav-main li{
+    list-style: none;
+}
+.nav-main{
+    display: flex;
+    column-gap: 70px;
+}
+.nav-main li a {
+    text-decoration: none;
+    color: #2a4f83;
+}
+
+/* first banner */
+.main-banner{
+    display: flex;
+    flex-direction: column;
+}
+.first-banner{
+    display: flex;
+    width: 100%;
+    height: 90vh;
+}
+.img1{
+    width: 50%;
+    height: 80vh;
+}
+.img1 img{
+    width: 100%;
+    height: 90vh;
+}
+
+.who-we-are{
+    background-color: #2a4f83;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    color: white;
+}
+.who-we-are p{
+    width: 58%;
+}
+.p-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* second banner */
+
+.second-banner{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img2{
+    width: 50%;
+    height: 90vh;
+}
+.img2 img{
+    width: 100%;
+    height: 90vh;
+}
+.how-we-roll{
+    background-color: #5484c7;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 90vh;
+    color: black;
+}
+.how-we-roll p{
+    width: 58%;
+}
+/* form section */
+
+.main-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 70vh;
+
+}
+.main-form h1{
+    font-size: 55px;
+    color: #2F5992;
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.btn-on-form{
+    position: absolute;
+    right: 8px;
+    bottom: 0;
+}
+.btn-on-form button{
+    margin-right: -9px;
+    padding: 15px;
+    background-color: white;
+    border: 3px solid #2F5992;
+    color: #2F5992;
+    font-weight: bold;
+}
+form input{
+    border: 3px solid #2F5992;
+    color: #2F5992;
+    height: 30px;
+    margin: 10px;
+    width: 96.7%;
+    padding: 10px;
+}
+form input::placeholder{
+    color: #2F5992;
+    font-weight: bold;
+}
+.form-section{
+    width: 46%;
+}
+textarea{
+    border: 3px solid #2F5992;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 10px;
+}
+form textarea::placeholder{
+    color: #2F5992;
+}
+.btn{
+    border: 3px solid #2F5992;
+    border-radius: 30px;
+    margin-top: 10px;
+    padding: 20px;
+    width: 13%;
+    color: white;
+    background-color: #2F5992;
+    font-weight: bold;
+}
+
+/* before the footer style */
+.before-footer{
+    background-color: #2F5992;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 30vh;
+    margin-top: 10%;
+}
+.first-footer{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    color: white;
+}
+.second-footer{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+}
+.second-footer p{
+    letter-spacing: 10px;
+}
+.second-footer input{
+    background-color: #2F5992;
+    border: 2px solid white;
+}
+.second-footer input::placeholder{
+    color: white;
+}
+.second-footer button{
+    padding: 5px;
+    border: 1px transparent;
+    border-radius: 20px;
+    color: #2F5992;
+}
+/* footer */
+footer{
+    text-align: center;
+    color: #2F5992;
+}
+
+/* media query tablet */
+@media screen and (max-width: 768px) {
+    nav{
+        padding: 10px;
+        flex-direction: column;
+    }
+    .main-banner{
+        flex-direction: column;
+    }
+
+    /* first banner */
+    .first-banner{
+        flex-direction: column;
+    }
+    .img1 img{
+        height: 75vh;
+    }
+    .img1{
+        width: 100%;
+    }
+    .who-we-are{
+        height: 70vh;
+        width: 100%;
+    }
+    .who-we-are p{
+        width: 80%;
+        height: 90vh
+    }
+    .p-main{
+        height: 50vh;
+    }
+
+    /* second banner */
+    .second-banner{
+        flex-direction: column;
+    }
+    .img2{
+        width: 100%;
+    }
+    .img2 img{
+        height: 60vh;
+    }
+    .how-we-roll{
+        height: 60vh;
+        margin-top: 147%;
+        width: 100%;
+    }
+    .how-we-roll p{
+        height: 50vh;
+        width: 80%;
+    }
+
+    /* form media query */
+    .main-form{
+        margin-top: 75%;
+        width: 100%;
+    }
+    .main-form h1{
+        font-size: 30px;
+    }
+    form input{
+        width: 150%;
+    }
+    textarea{
+        width: 150%;
+    }
+    .btn-on-form{
+        right: -26%;
+    }
+    .btn{
+        width: 40%;
+    }
+    .before-footer{
+        height: 40vh;
+    }
+    .first-footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .first-footer p{
+        margin: 15px;
+        text-align: center;
+    }
+    .second-footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .second-footer input{
+        margin: 15px;
+    }
+    .second-footer p{
+        text-align: center;
+    }
+}
+
+
+/* mobile query */
+@media screen and (max-width: 480px){
+    .how-we-roll{
+        padding-top: 20px;
+        padding-bottom: 10px;
+        margin-top: 168%;
+    }
+    .who-we-are{
+        padding-top: 20px;
+        padding-bottom: 30px;   
+    }
+    .main-form{
+        margin-top: 80%;
+    }
+    .img1 img, .img2 img{
+        height: 50vh;
+    }
+}
